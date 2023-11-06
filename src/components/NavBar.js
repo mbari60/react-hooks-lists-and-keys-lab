@@ -7,7 +7,7 @@ function NavBar() {
     <nav>
       {links.map((link, index) => (
         <li key={index}>
-          <a href="#{link}">{link}</a>
+          <a href={`#${link}`}>{link}</a>
         </li>
       ))}
     </nav>
